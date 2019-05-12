@@ -5,41 +5,41 @@
 
 body{
     background: #eee;
+    color: #333;
 }
 
 .wrapper{
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+
 }
 
-.flex-container{
+#blocks{
     display:flex;
-    background: #ddd;
-    flex-wrap: wrap;
-    flex-flow:column;
-    height: 800px;
-    align-items:center;
-    justify-content:space-between;
-    
+    margin: 10px;
+    justify-content: space-between;
+
 }
 
-.box{
-    width:100px;
-    flex:0 0 100px;
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
 }
 
 .one{
-    background:red;
-
+    order:3;
 }
 
 .two{
-    background:blue;
-
+    order:2;
 }
 
 .three{
-    background: green;
+    order:0;
+}
 
+.four{
+    order:0;
 }
