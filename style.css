@@ -15,15 +15,18 @@ body{
 
 .flex-container{
     display:flex;
-    background: #fff;
+    background: #ddd;
     flex-wrap: wrap;
+    flex-flow:column;
+    height: 800px;
+    align-items:center;
+    justify-content:space-between;
     
 }
 
 .box{
-    height:100px;
-    flex:1 0 200px;
-
+    width:100px;
+    flex:0 0 100px;
 }
 
 .one{
